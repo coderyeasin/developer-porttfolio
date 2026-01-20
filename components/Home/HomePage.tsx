@@ -1,10 +1,15 @@
 import React from "react";
+import Header from "../Header/Header";
+import HeroSection from "../HeroSection/HeroSection";
 
 const HomePage = () => {
   return (
-    <div>
-      <h3>Home</h3>
-    </div>
+    <main>
+      <section className="bg-bgPrimary h-auto w-full">
+        <Header />
+        <HeroSection />
+      </section>
+    </main>
   );
 };
 
