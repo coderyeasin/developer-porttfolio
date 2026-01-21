@@ -56,7 +56,7 @@ const backgroundContent: BackgroundType[] = [
 
 const EduExp = () => {
   return (
-    <section className="py-20">
+    <section className="py-30">
       <Container>
         <h3 className="font-bold text-[35px] text-darkTxt text-center">
           A summary of My Resume
