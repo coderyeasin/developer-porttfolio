@@ -20,7 +20,6 @@ This portfolio is engineered with best practices in mind, focusing on maintainab
 ### 🎨 UI & UX Excellence
 
 - **Pixel-Perfect Implementation:** Meticulously coded from **Figma** designs to ensure 1:1 visual accuracy.
-- **Robust Theming:** Built-in **Dark/Light mode** toggle using `next-themes` with flash-free hydration.
 - **Fully Responsive:** Fluid layouts that adapt seamlessly from 4K desktops to mobile devices.
 - **Modern Animations:** Smooth transitions and micro-interactions for a polished user feel.
 
