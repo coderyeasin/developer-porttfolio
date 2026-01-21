@@ -45,7 +45,7 @@ const HeroSection = () => {
                 priority
               />
 
-              <div className="absolute -bottom-5 -right-18 flex items-center justify-center">
+              <div className="absolute bottom-2 -right-16 flex items-center justify-center">
                 <div className="absolute h-259 w-259 rounded-full bg-btnColor/10" />
                 <div className="absolute h-217.5 w-217.5 rounded-full bg-btnColor/15" />
                 <div className="absolute h-174.5 w-174.5 rounded-full bg-btnColor/20" />
