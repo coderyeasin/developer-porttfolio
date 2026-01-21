@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ Modern Developer Portfolio
 
-## Getting Started
+![Project Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 
-First, run the development server:
+> A pixel-perfect, highly performance-optimized developer portfolio template built with Next.js, TypeScript, and Tailwind CSS. Translated directly from Figma to Code.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[**🔴 LIVE DEMO**](https://developer-porttfolio-beige.vercel.app/) | [**🎨 FIGMA DESIGN**](https://www.figma.com/design/rbxvJJJs2Ej0qavt9dvhG8/developer-porttfolio?m=auto&t=wT0R1BFLdkBu3zZZ-1)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
+This portfolio is engineered with best practices in mind, focusing on maintainability and visual fidelity.
 
-To learn more about Next.js, take a look at the following resources:
+### 🎨 UI & UX Excellence
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Pixel-Perfect Implementation:** Meticulously coded from **Figma** designs to ensure 1:1 visual accuracy.
+- **Robust Theming:** Built-in **Dark/Light mode** toggle using `next-themes` with flash-free hydration.
+- **Fully Responsive:** Fluid layouts that adapt seamlessly from 4K desktops to mobile devices.
+- **Modern Animations:** Smooth transitions and micro-interactions for a polished user feel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🏗️ Architecture & Code Quality
 
-## Deploy on Vercel
+- **Next.js App Router:** Utilizing the latest Next.js features for server-side rendering and SEO optimization.
+- **Type-Safe:** Written entirely in **TypeScript** to ensure code reliability and easy refactoring.
+- **Modular Components:** specific focus on **Reusability**. Components are atomic, isolated, and easy to extend.
+- **Tailwind CSS:** Utility-first styling for rapid development and small bundle sizes.
+- **React Icons:** Lightweight icon integration for consistent visual language.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🧩 Layout Mastery
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Dynamic Layouts:** Supports multiple page structures (Grid, Masonry, Sidebar).
+- **SEO Optimized:** Meta tags, Open Graph support, and semantic HTML structure.
+
+---
+
+## 🛠️ Tech Stack
+
+| Category        | Technology                                                |
+| :-------------- | :-------------------------------------------------------- |
+| **Framework**   | [Next.js](https://nextjs.org/)                            |
+| **Language**    | [TypeScript](https://www.typescriptlang.org/)             |
+| **Styling**     | [Tailwind CSS](https://tailwindcss.com/)                  |
+| **Icons**       | [React Icons](https://react-icons.github.io/react-icons/) |
+| **Design Tool** | [Figma](https://www.figma.com/)                           |
+| **Deployment**  | [Vercel](https://vercel.com)                              |
+
+---
