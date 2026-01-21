@@ -47,9 +47,10 @@ const Expertise = () => {
           </h3>
           <p className="text-[18px] leading-7.5 text-grayContent text-center">
             I have more than 10 years experience building software for clients
-            all over the world. Below is a quick overview of my main technical
-            skill sets and technologies i use. Want to find out more about my
-            experience? Check out my online resume and project portfolio.
+            all over the world. Below is a quick <br /> overview of my main
+            technical skill sets and technologies i use. Want to find out more
+            about my experience? <br /> Check out my online resume and project
+            portfolio.
           </p>
         </div>
         <div className="flex justify-between items-center gap-5">
