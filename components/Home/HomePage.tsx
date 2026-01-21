@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import HeroSection from "../HeroSection/HeroSection";
 import About from "../About/About";
 import Expertise from "../Expertise/Expertise";
+import EduExp from "../EduExp/EduExp";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <section>
         <About />
         <Expertise />
+        <EduExp />
       </section>
     </main>
   );
