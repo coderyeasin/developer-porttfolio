@@ -25,10 +25,10 @@ const HeroSection = () => {
               </p>
 
               <div className="mt-7 flex items-center gap-6">
-                <button className="flex items-center gap-3 rounded-md bg-btnColor px-7 py-4 text-[20px] text-white">
+                <button className="flex items-center gap-3 rounded-md bg-btnColor px-7 py-4 text-[20px] text-white cursor-pointer">
                   <FaDownload /> Download CV
                 </button>
-                <button className="flex items-center gap-3 rounded-md border-2 border-btnColor px-7 py-4 text-btnColor">
+                <button className="flex items-center gap-3 rounded-md border-2 border-btnColor px-7 py-4 text-btnColor cursor-pointer">
                   <FaPhoneAlt /> Contact
                 </button>
               </div>

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import HeroSection from "../HeroSection/HeroSection";
 import About from "../About/About";
+import Expertise from "../Expertise/Expertise";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       </section>
       <section>
         <About />
+        <Expertise />
       </section>
     </main>
   );
