@@ -47,17 +47,17 @@ const Expertise = () => {
             portfolio.
           </p>
         </div>
-        <div className="flex justify-between items-center gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:md:grid-cols-4 gap-6">
           {skillsContent.map((skill: SkillsType, i) => (
             <div
               key={i}
-              className="rounded-[5px] w-66.75 h-94.25 px-6 py-5 bg-white space-y-7"
+              className="rounded-lg w-full px-4 py-6 bg-white space-y-5 flex flex-col items-center shadow-sm"
             >
-              <p className="text-5xl">{skill.icon}</p>
-              <h3 className="text-darkTxt font-bold text-[20px]">
+              <p className="text-4xl md:text-5xl">{skill.icon}</p>
+              <h3 className="text-darkTxt font-bold text-[18px] md:text-[20px]">
                 {skill.title}
               </h3>
-              <p className="text-grayContent text-[16px] leading-7">
+              <p className="text-grayContent text-[15px] md:text-[16px] leading-7 text-center">
                 {skill.content}
               </p>
             </div>

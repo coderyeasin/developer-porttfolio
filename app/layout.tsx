@@ -10,6 +10,9 @@ const OpenSans = Open_Sans({
 export const metadata: Metadata = {
   title: "Portfolio",
   description: "Developer",
+  icons: {
+    icon: "/globe.svg",
+  },
 };
 
 export default function RootLayout({

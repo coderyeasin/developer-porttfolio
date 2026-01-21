@@ -54,44 +54,44 @@ const EduExp = () => {
         <h3 className="font-bold text-[35px] text-darkTxt text-center">
           A summary of My Resume
         </h3>
-        <div className="flex justify-between items-start gap-5 pt-20 pb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-10 pb-8">
           <div className="space-y-5">
-            <h3 className="text-grayNav font-bold text-[30px] py-3">
+            <h3 className="text-grayNav font-bold text-[22px] md:text-[30px] py-3">
               My Education
             </h3>
             {backgroundContent.slice(0, 3).map((educate) => (
               <div
                 key={educate.id}
-                className={`${educate.id === "1" || educate.id === "2" ? "border-b-2 border-[#D1D1D1]" : "border-0"} space-y-2 pb-7`}
+                className={`${educate.id === "1" || educate.id === "2" ? "border-b-2 border-[#D1D1D1]" : "border-0"} space-y-2 pb-5`}
               >
-                <h3 className="font-bold text-grayNav text-[25px]">
+                <h3 className="font-bold text-grayNav text-[18px] md:text-[25px]">
                   {educate.title}
                 </h3>
-                <h4 className="font-semibold text-grayNav text-[20px]">
+                <h4 className="font-semibold text-grayNav text-[16px] md:text-[20px]">
                   {educate.title}
                 </h4>
-                <p className="text-[16px] text-grayContent leading-7 w-120">
+                <p className="text-[14px] md:text-[16px] text-grayContent leading-7">
                   {educate.description}
                 </p>
               </div>
             ))}
           </div>
           <div className="space-y-5">
-            <h3 className="text-grayNav font-bold text-[30px] py-3">
+            <h3 className="text-grayNav font-bold text-[22px] md:text-[30px] py-3">
               My Experience
             </h3>
             {backgroundContent.slice(3, 6).map((educate) => (
               <div
                 key={educate.id}
-                className={`${educate.id === "4" || educate.id === "5" ? "border-b-2 border-[#D1D1D1]" : "border-0"} space-y-2 pb-7`}
+                className={`${educate.id === "4" || educate.id === "5" ? "border-b-2 border-[#D1D1D1]" : "border-0"} space-y-2 pb-5`}
               >
-                <h3 className="font-bold text-grayNav text-[25px]">
+                <h3 className="font-bold text-grayNav text-[18px] md:text-[25px]">
                   {educate.title}
                 </h3>
-                <h4 className="font-semibold text-grayNav text-[20px]">
+                <h4 className="font-semibold text-grayNav text-[16px] md:text-[20px]">
                   {educate.title}
                 </h4>
-                <p className="text-[16px] text-grayContent leading-7 w-120">
+                <p className="text-[14px] md:text-[16px] text-grayContent leading-7">
                   {educate.description}
                 </p>
               </div>
