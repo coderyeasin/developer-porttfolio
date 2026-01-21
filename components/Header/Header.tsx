@@ -10,7 +10,7 @@ const navItem: NaveType[] = [
 
 const Header = () => {
   return (
-    <section className="py-10">
+    <section className="py-10 relative">
       <Container>
         <nav className="flex justify-between items-center">
           <Link href="#" className="font-extrabold text-[45px]">

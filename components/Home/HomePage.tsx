@@ -5,7 +5,7 @@ import HeroSection from "../HeroSection/HeroSection";
 const HomePage = () => {
   return (
     <main>
-      <section className="bg-bgPrimary h-auto w-full">
+      <section className="bg-bgPrimary h-auto w-full relative">
         <Header />
         <HeroSection />
       </section>
