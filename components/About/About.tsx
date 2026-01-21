@@ -1,10 +1,5 @@
-import React from "react";
+import { UserInfoType } from "@/types/type";
 import Container from "../UI/Container/Container";
-
-type UserInfoType = {
-  title: string;
-  heading: string;
-};
 
 const userInfo: UserInfoType[] = [
   { title: "Name", heading: "Mary Hardy" },

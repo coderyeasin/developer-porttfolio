@@ -5,7 +5,7 @@ import { MdOutlineCameraAlt } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="py-30 bg-bgPrimary w-full h-[780px]">
+    <footer className="py-30 bg-bgPrimary w-full h-195">
       <Container>
         <section className="flex justify-between items-start gap-5 w-full">
           <div className="space-y-5 w-7/12">

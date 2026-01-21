@@ -1,13 +1,6 @@
-import React from "react";
 import Container from "../UI/Container/Container";
 import { FaDownload } from "react-icons/fa";
-
-type BackgroundType = {
-  id: string;
-  title: string;
-  institute: string;
-  description: string;
-};
+import { BackgroundType } from "@/types/type";
 
 const backgroundContent: BackgroundType[] = [
   {

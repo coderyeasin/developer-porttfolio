@@ -1,14 +1,8 @@
-import React, { ReactNode } from "react";
 import Container from "../UI/Container/Container";
 import { DiMongodb } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaNodeJs, FaReact } from "react-icons/fa";
-
-type SkillsType = {
-  icon: ReactNode;
-  title: string;
-  content: string;
-};
+import { SkillsType } from "@/types/type";
 
 const skillsContent: SkillsType[] = [
   {
